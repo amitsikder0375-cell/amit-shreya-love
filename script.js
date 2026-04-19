@@ -1,0 +1,3 @@
+function scrollToSection(){document.getElementById("memories").scrollIntoView({behavior:"smooth"})}
+function createHeart(){const e=document.createElement("span");e.innerHTML="💖",e.style.left=Math.random()*100+"vw",e.style.animationDuration=Math.random()*3+2+"s",e.style.fontSize=Math.random()*20+15+"px",document.querySelector(".hearts").appendChild(e),setTimeout(()=>{e.remove()},5e3)}
+setInterval(createHeart,300);

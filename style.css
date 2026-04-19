@@ -1,0 +1,18 @@
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(to bottom,#ffdde1,#ee9ca7);color:#fff;text-align:center;overflow-x:hidden}
+.hero{padding:90px 20px}
+.hero h1{font-size:3rem;margin-bottom:10px;text-shadow:0 0 20px rgba(255,255,255,.8)}
+.hero p{font-size:1.2rem;opacity:.9}
+.hero button{margin-top:20px;padding:12px 25px;border:none;border-radius:30px;background:#ff4b6e;color:#fff;font-size:1rem;cursor:pointer;box-shadow:0 5px 15px rgba(0,0,0,.3)}
+.hero button:hover{background:#ff2f5c}
+.section{padding:50px 20px}
+.section h2{font-size:2rem;margin-bottom:20px}
+.gallery{display:flex;justify-content:center;flex-wrap:wrap;gap:15px}
+.gallery img,.placeholder{width:250px;height:320px;border-radius:20px;border:3px solid rgba(255,255,255,.6);box-shadow:0 5px 20px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.15);font-weight:700}
+.gallery img{object-fit:cover;background:none}
+.note{margin-top:12px;font-size:.95rem;opacity:.85}
+.message-box{max-width:650px;margin:auto;background:rgba(255,255,255,.2);padding:20px;border-radius:20px;box-shadow:0 5px 15px rgba(0,0,0,.3);font-size:1.1rem}
+.music-player{margin:20px auto;max-width:520px;background:rgba(255,255,255,.2);padding:15px;border-radius:20px;box-shadow:0 5px 15px rgba(0,0,0,.3)}
+audio{width:100%}
+footer{padding:20px;background:rgba(0,0,0,.2);margin-top:30px}
+.hearts span{position:fixed;top:-10px;font-size:20px;animation:fall linear infinite;color:#ff2f5c;pointer-events:none}
+@keyframes fall{0%{transform:translateY(-10px);opacity:1}100%{transform:translateY(110vh);opacity:0}}
